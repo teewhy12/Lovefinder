@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+#photo img{
+    top: 50%;
+}
+#hov{
+    gap: 30px;
+}
+#hov button{
+    background-color: #7C0B08;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 137px;
+    height: 40px;
+}
+
+#hov :hover{
+    color: #7C0B08;
+    
+}
+#hero{
+    background-image: url(img/Rectangle\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 100px);
+
+}
+#hero h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+}
+#hero button{
+    background-color: white;
+    width: 147px;
+    height: 40px;
+    color: #7C0B08;
+    border-radius: 10px;
+    font-size: 16px;
+}
+#happy2 h4{
+    font-family: 'Montserrat',
+        sans-serif;
+        font-weight: 700px;
+        font-size: 300px;
+        
+        color: #7C0B08;
+}
+#happy2 p{
+    color: #7C0B08;
+}
+
+#happy2 select{
+    width: 463px;
+    height: 42px;
+    border: 1px solid #7C0B08;
+    padding-left: 10px;
+    color: #7C0B08;
+}
+#happy2 input{
+    width: 463px;
+        height: 42px;
+        border: 1px solid #7C0B08;
+        padding-left: 10px;
+
+}
+
+#happy2 ::placeholder{
+    color: #7C0B08;
+    
+}
+#happy2 button{
+    background-color: #7C0B08;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 96px;
+    height: 40px;
+    margin-left: 30%;
+}
+#happy2{
+    border: 1px solid #7C0B08;
+    padding-right: 20px;
+}
+/* .couple{
+   
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 651px;
+    background-image: url(IMG/couple.png);
+} */
+.aro{
+    text-align: center;
+}
+#love{
+    justify-content: space-evenly;
+    
+    
+    
+    
+}
+.love1{
+    text-align: center;
+    border: 1px solid #7C0B08;
+    border-radius: 30px;
+    width: 366px;
+    height: 328px;
+    padding-top: 50px;
+}
+#awo{
+    
+  justify-content: space-evenly;
+   
+}
+#awo2{
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+.phone{
+    
+    border-radius: 30px;
+    background-color: #7C0B08;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    width: 267px;
+    height: 198px;
+ 
+}
+.pot{
+    background-color: #7C0B08;
+color: white;
+border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 50px;
+    padding: 10px;
+    gap: 10px;
+    width: 83px;
+    height: 40px;
+    border: none;
+ }
+ #happy2{
+    justify-content: space-evenly;
+ }
+ 
+
+ .print{
+        text-align:center;
+        
+         background-color: rgba(124, 11, 11, 0.4);;
+            border-radius: 30px;
+            width: 366px;
+            height: 328px;
+            padding-top: 50px;
+            
+ }
+ .marr{
+    gap: 30px;
+    align-items: end;
+    padding-bottom: 20px;
+    padding-left: 15px;
+ }
+ .ty{
+    color: #7C0B08;
+ }
+ .ins{
+    padding-top: 50px;
+    padding-bottom: 10%;
+ }
+ .ins input{
+    border-radius: 30px;
+    border: 2px solid #7C0B08;
+    width: 560px;
+    height: 54px;
+    box-sizing: border-box;
+    padding-left: 20px;
+ }
+ .move{
+    margin-left: 30%;
+ }
+ .ins button{
+    background-color: #7C0B08;
+    color: white;
+    border-radius: 30px;
+    width: 164px;
+    height: 54px;
+    border: none;
+    position: relative;
+    right: 170px;
+ }
+ .ins ::placeholder{
+    color: #7C0B08;
+ }
+
+ .footers{
+    background-color: #7C0B08;
+    height: 407px;
+    width: 1440px;
+ }
+ .hre{
+    border-radius: 30px;
+        width: 695px;
+        height: 112px;
+        position: relative;
+        top: 60px;
+        left: 100px;
+   }
+   .infi{
+    background-color: #7C0B08;
+   border-radius: 10px;
+    display: flex;
+    width: 144.32px;
+        height: 40px;
+        border: none;
+        color: white;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+        position: absolute;
+        left: 70%;
+            top: 30%;
+   }
+   .event{
+    gap: 30px;
+    padding-left: 10px;
+    margin-top: 70px;
+   }
+   .dist{
+    color: black;
+    position: relative;
+    left: 5%;
+    top: 17%;
+
+   }
+
+@media(max-width: 800px){
+    #hero h1{
+        font-size: 20px;
+    }
+        #happy2 select {
+            width: 100%;
+            height: 42px;
+
+        }
+    
+        #happy2 input {
+            width: 100%;
+            height: 42px;}
+            #happy2{
+                position: relative;
+                bottom: 20px;
+            }
+#love{
+    row-gap: 30px;
+    width: 70%;
+    height: 50%;
+    position: relative;
+    left: 18%;
+}
+.love1{
+        text-align: center;
+       width: 100%;
+            height: 10%;
+            padding-top: 50px;
+}
+
+#awo{
+    row-gap: 30px;
+        width: 50%;
+            height: 50%;
+            position: relative;
+            left: 25%;
+}
+#awo2{
+    row-gap: 30px;
+        width: 50%;
+            height: 50%;
+            position: relative;
+            left: 28%;
+}
+.view{
+    position: relative;
+    right: 15px;
+}
+.mon{
+    align-items: center;
+}
+#happy2{
+    row-gap: 30px;
+    width: 80%;
+        height: 50%;
+        position: relative;
+        left: 15%;
+        
+}
+.print{
+    position: relative;
+    top: 20px;
+}
+
+ .ins input {
+     width: 100%;
+    position: relative;
+    right: 70px;
+
+ }
+  .ins button {
+      width: 40%;
+      position: relative;
+      left: 15%;
+      margin-top: 20px;
+    
+
+  }
+   .footers {
+       background-color: #7C0B08;
+       height: 407px;
+       width: 100%;}
+       
+       #right{
+        position: relative;
+        right: 50px;
+       }
+ .infi {
+display: none;
+width: 50%;
+height: 20px;
+flex-direction: row;
+position: absolute;
+left: 100px;
+ top: 100%;}
+ #jesus{
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+    margin-left: 30px;
+
+ }
+form button{
+    margin-bottom: 20px;
+    position: relative;
+    right: 50px;
+}
+#ori{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+}
